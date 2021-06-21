@@ -19,5 +19,5 @@ vim.api.nvim_set_keymap('v', '<Leader>s', ':sort<CR>', {noremap = true, silent =
 vim.api.nvim_set_keymap('v', '<', '<gv', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('v', '>', '>gv', {noremap = true, silent = true})
 
-vim.api.nvim_set_keymap('n', '<Leader>ec', ':e C:\\Users\\Nelam\\AppData\\Local\\nvim\\init.lua<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<Leader>ec', ':e $HOME\\AppData\\Local\\nvim\\init.lua<CR>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<Leader>sc', ':luafile %', {silent = true})
