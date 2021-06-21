@@ -9,5 +9,3 @@ require 'paq-nvim' {
     'neovim/nvim-lspconfig';
     'kabouzeid/nvim-lspinstall';
 }
-
-
