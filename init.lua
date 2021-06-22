@@ -3,9 +3,14 @@ require('sets')
 require('keymappings')
 require('variables')
 require('lspinstallconfig')
+require('plugins')
 
-require 'paq-nvim' {
-    'savq/paq-nvim';
-    'neovim/nvim-lspconfig';
-    'kabouzeid/nvim-lspinstall';
+require'nvim-treesitter.configs'.setup {
+  ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  ignore_install = { "dockerfile","dart","cuda","elixer","erlang","fennel","fish" }, -- List of parsers to ignore installing
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+    disable = {},  -- list of language that will be disabled
+  },
 }
+
