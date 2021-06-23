@@ -4,18 +4,6 @@ require('keymappings')
 require('variables')
 --require('lspinstallconfig')
 
---[[
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-  ignore_install = { "dockerfile","dart","cuda","elixer","erlang","fennel","fish" }, -- List of parsers to ignore installing
-  highlight = {
-    enable = true,              -- false will disable the whole extension
-    disable = {},  -- list of language that will be disabled
-  },
-}
-
---]]
-
 vim.api.nvim_exec(
 [[
 call plug#begin('~/AppData/Local/nvim-data/site/pack/plugged/start')
@@ -32,4 +20,6 @@ call plug#end()
 ]]
 ,true)
 
-require'nvim-treesitter.configs'.setup {highlight = { enable = true }}
+require'nvim-treesitter.configs'.setup {
+    highlight = { enable = true },
+    indent = {enable = true}}
