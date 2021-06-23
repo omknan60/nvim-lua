@@ -8,7 +8,6 @@ vim.cmd('set relativenumber')
 vim.cmd('set nowrap')
 vim.cmd('set smartcase')
 vim.cmd('set noswapfile')
-vim.cmd('set undofile')
 vim.cmd('set incsearch')
 vim.cmd('set nobackup')
 vim.cmd('set nowritebackup')
@@ -21,7 +20,6 @@ vim.opt.tabstop=4
 vim.opt.softtabstop=4
 vim.opt.shiftwidth=4
 vim.opt.backup=false
-vim.opt.undodir="../undodir"
 vim.opt.scrolloff=8
 vim.opt.signcolumn="yes"
 vim.opt.colorcolumn="90"
