@@ -18,8 +18,11 @@ require'nvim-treesitter.configs'.setup {
 
 vim.api.nvim_exec(
 [[
-call plug#begin('~/AppData/Local/nvim-data/plugged')
+call plug#begin('~/AppData/Local/nvim-data/site/pack/plugged/start')
   Plug 'neovim/nvim-lspconfig'
+  Plug 'nvim-lua/popup.nvim'
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 ]]
 ,true)
