@@ -15,7 +15,6 @@ require'nvim-treesitter.configs'.setup {
 }
 
 --]]
---
 
 vim.api.nvim_exec(
 [[
