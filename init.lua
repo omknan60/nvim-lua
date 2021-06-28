@@ -23,3 +23,4 @@ call plug#end()
 require'nvim-treesitter.configs'.setup {
     highlight = { enable = true },
     indent = {enable = true}}
+require 'nvim-treesitter.install'.compilers = { "clang" }
