@@ -3,10 +3,10 @@ vim.g.mapleader=" "
 vim.api.nvim_set_keymap('n','<Leader>h' ,':split<CR>' ,{noremap = true, silent = true})
 vim.api.nvim_set_keymap('n','<Leader>v' ,':vsplit<CR>' ,{noremap = true, silent = true})
 
-vim.api.nvim_set_keymap('','<c-h>' ,'<c-w>h' ,{noremap = true, silent = true})
-vim.api.nvim_set_keymap('','<c-j>' ,'<c-w>j' ,{noremap = true, silent = true})
-vim.api.nvim_set_keymap('','<c-k>' ,'<c-w>k' ,{noremap = true, silent = true})
-vim.api.nvim_set_keymap('','<c-l>' ,'<c-w>l' ,{noremap = true, silent = true})
+vim.api.nvim_set_keymap('','<Leader><Left>' ,'<c-w>h' ,{noremap = true, silent = true})
+vim.api.nvim_set_keymap('','<Leader><Down>' ,'<c-w>j' ,{noremap = true, silent = true})
+vim.api.nvim_set_keymap('','<Leader><Up>' ,'<c-w>k' ,{noremap = true, silent = true})
+vim.api.nvim_set_keymap('','<Leader><Right>' ,'<c-w>l' ,{noremap = true, silent = true})
 
 vim.api.nvim_set_keymap('n', '<c-s>', '<esc>:w<CR>', {noremap = true, silent = true})
 
