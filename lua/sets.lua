@@ -24,4 +24,4 @@ vim.opt.scrolloff=8
 vim.opt.signcolumn="yes"
 vim.opt.colorcolumn="90"
 vim.opt.clipboard="unnamed"
-vim.opt.guifont='Consolas:h12'
+--vim.opt.guifont='Consolas:h12'
